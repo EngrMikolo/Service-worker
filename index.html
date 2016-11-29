@@ -25,7 +25,7 @@
 // 			worker.postMessage('Hello World');
 			
 			function sayHI() {
-				worker.postMessage({'cmd': 'stop', 'msg': 'Bye'});
+				worker.postMessage({'cmd': 'start', 'msg': 'Hi'});
 			}
 			function stop() {
 			    // worker.terminate() from this script would also stop the worker.
